@@ -104,6 +104,23 @@ frame更加方便
 //UINavigationController基类
 
 
+12.FlyGetIPAddress
+
+/**
+ 获取IP
+ */
+ 
++ (NSString *)FlyIPAddress;
+
+
+13.FlyWhetherHaveNet
+
+/**
+ 判断当前是否有网
+ */
++ (BOOL)FlyJudgeNetWork;
+
+
 
 
 
