@@ -30,7 +30,8 @@
 #import "UITextField+FlyOperation.h"        //输入框方法
 #import "FlyViewController.h"               //vc基类
 #import "FlyNavigationController.h"         //nvc基类
-
+#import "FlyWhetherHaveNet.h"               //判断是否有网络
+#import "FlyGetIPAddress.h"                 //获取IP
 
 #endif
 #endif /* FlyKitHeader_h */
