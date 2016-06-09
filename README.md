@@ -99,7 +99,7 @@
 </font>
 </p>
  TextField 输入状态 自适应屏幕
- 把控件创建在FlyScrollview上即可
+ 把控件创建在FlyKeyboard上即可
  
  </p>
 
