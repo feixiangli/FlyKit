@@ -1,7 +1,12 @@
 # FlyKit
+<font color="#FF0000">
 提高开发效率的框架
+</font>
 
+<font color="#FF0000">
 1.FlyRSA
+</font>
+
 </p>
 /**
  加密字符串
@@ -35,7 +40,9 @@
 + (NSData *)decryptData:(NSData *)data privateKey:(NSString *)privKey;
 </p>
 
+<font color="#FF0000">
 2.NSObject+FlyModel
+</font>
 </p>
 
 /**
@@ -46,7 +53,10 @@
 + (instancetype)FlyModel:(id)json;
 </p>
 
+
+<font color="#FF0000">
 3.FlyMD5
+</font>
 </p>
 
 /**
@@ -57,7 +67,10 @@
 +(NSString *)FlyCreateMD5WithString: (NSString *) inPutText ;
 </p>
 
+
+<font color="#FF0000">
 4.FlyRegex
+</font>
 </p>
 
 /**
@@ -69,7 +82,9 @@
 + (BOOL)FlyRegex:(NSString *)regex;
 </p>
 
+<font color="#FF0000">
 5.FlyPhoto
+</font>
 </p>
 
 /**
@@ -82,7 +97,10 @@
 +(void)FlyShowPhoto:(UIImageView *)imageView url:(NSString *)imageUrl;
 </p>
 
+
+<font color="#FF0000">
 6.FlyScrollview
+</font>
 </p>
 
 /**
@@ -94,7 +112,10 @@
 - (id)initWithFrame:(CGRect)frame;
 </p>
 
+
+<font color="#FF0000">
 7.UIView+Frame
+</font>
 </p>
 
 frame更加方便
@@ -106,7 +127,12 @@ frame更加方便
 @property(nonatomic,assign)CGFloat centerY;</p>
 </p>
 
-8.NSArray+FlyOperation</p>
+
+<font color="#FF0000">
+8.NSArray+FlyOperation
+</font>
+
+</p>
 /**
  返回数组里的一个随机元素
  */
@@ -131,7 +157,11 @@ frame更加方便
 </p>
 - (void)FlyShuffle;
 </p>
+
+<font color="#FF0000">
 9.UITextField+FlyOperation
+</font>
+
 </p>
 /**
  设置为日期选择器
@@ -139,16 +169,28 @@ frame更加方便
 </p>
 - (void)FLyDateInputView;
 </p>
+
+<font color="#FF0000">
 10.FlyViewController
+</font>
+
 </p>
 //UIViewController 基类
 </p>
+
+<font color="#FF0000">
 11.FlyNavigationController
+</font>
+
 </p>
 //UINavigationController基类
 </p>
 
+
+<font color="#FF0000">
 12.FlyGetIPAddress
+</font>
+
 </p>
 /**
  获取IP
@@ -157,7 +199,11 @@ frame更加方便
 + (NSString *)FlyIPAddress;
 </p>
 
+
+<font color="#FF0000">
 13.FlyWhetherHaveNet
+</font>
+
 </p>
 /**
  判断当前是否有网
@@ -165,7 +211,11 @@ frame更加方便
  </p>
 + (BOOL)FlyJudgeNetWork;
 </p>
+
+<font color="#FF0000">
 14.FlyCarouselView
+</font>
+
 </p>
 高效率的轮播图，使用runloop以及imageview复用
 </p>
