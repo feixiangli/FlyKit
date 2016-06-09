@@ -1,5 +1,5 @@
 //
-//  FlyScrollview.h
+//  FlyKeyboard.h
 //  FlyKit
 //
 //  Created by 李飞翔 on 16/6/3.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FlyScrollview : UIScrollView
+@interface FlyKeyboard : UIScrollView
 {
     UIEdgeInsets    _priorInset;
     BOOL            _priorInsetSaved;

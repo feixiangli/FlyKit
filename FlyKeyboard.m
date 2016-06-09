@@ -6,10 +6,10 @@
 //  Copyright © 2016年 Fly. All rights reserved.
 //
 
-#import "FlyScrollview.h"
+#import "FlyKeyboard.h"
 #define _UIKeyboardFrameEndUserInfoKey (&UIKeyboardFrameEndUserInfoKey != NULL ? UIKeyboardFrameEndUserInfoKey : @"UIKeyboardBoundsUserInfoKey")
 
-@interface FlyScrollview()
+@interface FlyKeyboard()
 
 - (UIView*)findFirstResponderBeneathView:(UIView*)view;
 - (UIEdgeInsets)contentInsetForKeyboard;
@@ -17,7 +17,7 @@
 - (CGRect)keyboardRect;
 @end
 
-@implementation FlyScrollview
+@implementation FlyKeyboard
 
 - (id)initWithFrame:(CGRect)frame
 {
