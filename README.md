@@ -219,7 +219,10 @@ frame更加方便
 </p>
 - (instancetype)initWithImageArray:(NSArray *)imageArray;
 </p>
+
+
 #### 15.FlyTabBarController
+
 </p>
 方便的自定义 TabBarController
 </p>
