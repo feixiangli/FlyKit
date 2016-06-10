@@ -16,6 +16,7 @@
  
  FlyModel.h是YYmodel二次封装
  FlyPhoto.h用到了sdwebimage和MJphoto
+ FlyTabBarController.h是对RDVTabBarController的二次封装
  
  */
 
@@ -50,7 +51,7 @@
 
 #import "FlyTabBarController.h"             //TabBar类
 
-
+#import "NSObject+FlySelector.h"            //间接调用方法
 
 #endif
 
