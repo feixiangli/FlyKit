@@ -219,8 +219,33 @@ frame更加方便
 </p>
 - (instancetype)initWithImageArray:(NSArray *)imageArray;
 </p>
+#### 15.FlyTabBarController
+</p>
+方便的自定义 TabBarController
+</p>
+ 创建一个TabBarController
+ titles                 ：tabbarTitle数组
+ SimageNames            ：点击时tabbar图片数组
+ UimageNames            ：非点击tabbar图片数组
+ SBackgroundimageNames  ：点击时tabbar背景图片数组
+ UBackgroundimageNames  ：非点击tabbar背景图片数组
+ classNames             ：类名数组
+</p>
++ (FlyTabBarController *)flyAddTabBarsTitles:(NSArray*)titles
+                                     Simages:(NSArray*)SimageNames
+                                     Uimages:(NSArray*)UimageNames
+                           SBackgroundimages:(NSArray*)SBackgroundimageNames
+                           UBackgroundimages:(NSArray*)UBackgroundimageNames
+                                      clases:(NSArray*)classNames;
 
+</p>
+#### 16.NSObject+FlySelector
+</p>
+ 间接调用方法
+- (id)FlyPerformSelector:(SEL)selector withObjects:(NSArray *)objects;
+</p>
 
+</p>
 
 
 
