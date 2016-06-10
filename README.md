@@ -226,19 +226,19 @@ frame更加方便
 </p>
 方便的自定义 TabBarController
 </p>
- 创建一个TabBarController
- titles                 ：tabbarTitle数组
- SimageNames            ：点击时tabbar图片数组
- UimageNames            ：非点击tabbar图片数组
- SBackgroundimageNames  ：点击时tabbar背景图片数组
- UBackgroundimageNames  ：非点击tabbar背景图片数组
- classNames             ：类名数组
+ 创建一个TabBarController</p>
+ titles                 ：tabbarTitle数组</p>
+ SimageNames            ：点击时tabbar图片数组</p>
+ UimageNames            ：非点击tabbar图片数组</p>
+ SBackgroundimageNames  ：点击时tabbar背景图片数组</p>
+ UBackgroundimageNames  ：非点击tabbar背景图片数组</p>
+ classNames             ：类名数组</p>
 </p>
-+ (FlyTabBarController *)flyAddTabBarsTitles:(NSArray*)titles
-                                     Simages:(NSArray*)SimageNames
-                                     Uimages:(NSArray*)UimageNames
-                           SBackgroundimages:(NSArray*)SBackgroundimageNames
-                           UBackgroundimages:(NSArray*)UBackgroundimageNames
++ (FlyTabBarController *)flyAddTabBarsTitles:(NSArray*)titles</p>
+                                     Simages:(NSArray*)SimageNames</p>
+                                     Uimages:(NSArray*)UimageNames</p>
+                           SBackgroundimages:(NSArray*)SBackgroundimageNames</p>
+                           UBackgroundimages:(NSArray*)UBackgroundimageNames</p>
                                       clases:(NSArray*)classNames;
 
 </p>
