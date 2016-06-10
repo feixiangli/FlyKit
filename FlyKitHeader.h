@@ -48,6 +48,7 @@
 
 #import "FlyCarouselView.h"                 //轮播图
 
+#import "FlyTabBarController.h"             //TabBar类
 
 
 
