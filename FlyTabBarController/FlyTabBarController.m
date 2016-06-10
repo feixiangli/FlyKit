@@ -16,7 +16,7 @@
 @implementation FlyTabBarController
 
 
-+(RDVTabBarController *)flyAddTabBarsTitles:(NSArray*)titles
++(FlyTabBarController *)flyAddTabBarsTitles:(NSArray*)titles
                               Simages:(NSArray*)SimageNames
                               Uimages:(NSArray*)UimageNames
                     SBackgroundimages:(NSArray*)SBackgroundimageNames
